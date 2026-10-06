@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad de Laboratorio #07 - PHP</title>
+    <!-- Vinculación a Bootstrap CSS local -->
+    <link rel="stylesheet" href="plantilla/css/bootstrap.min.css">
+    <style>
+        .card-hover {
+            transition: transform 0.2s ease, shadow 0.2s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Encabezado / Header -->
+    <header class="bg-primary text-white text-center py-4 mb-4 shadow-sm">
+        <div class="container">
+            <h1 class="h3 mb-1">IES. Misioneros Monfortianos</h1>
+            <p class="mb-0">P.E. Desarrollo de Sistemas de Información | Programación Web</p>
+            <span class="badge bg-light text-primary mt-2 fs-6">Laboratorio Práctico en PHP</span>
+        </div>
+    </header>
+
+    <main class="container pb-5">
+        <div class="row g-3">
+
+            <!-- Bloque Parte 1: Fundamentos de PHP -->
+            <div class="col-12">
+                <h2 class="h5 text-secondary border-bottom pb-2">Sección 1: Fundamentos y Tipos de Datos</h2>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-primary fw-bold">Ejercicio 1</h3>
+                        <p class="card-text small text-muted">Ficha de producto (Tipos de datos básicos: integer, double, string, boolean).</p>
+                        <a href="ejercicio01.php" class="btn btn-outline-primary btn-sm w-100">Ver Ejercicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-primary fw-bold">Ejercicio 2</h3>
+                        <p class="card-text small text-muted">Comparación de precios (Variables de tipo double e impresión informativa).</p>
+                        <a href="ejercicio02.php" class="btn btn-outline-primary btn-sm w-100">Ver Ejercicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-primary fw-bold">Ejercicio 3</h3>
+                        <p class="card-text small text-muted">Datos de un estudiante (Comentarios multilínea y variables del alumno).</p>
+                        <a href="ejercicio03.php" class="btn btn-outline-primary btn-sm w-100">Ver Ejercicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-primary fw-bold">Ejercicio 4</h3>
+                        <p class="card-text small text-muted">Concatenación de cadenas utilizando el operador punto (.).</p>
+                        <a href="ejercicio04.php" class="btn btn-outline-primary btn-sm w-100">Ver Ejercicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-primary fw-bold">Ejercicio 5</h3>
+                        <p class="card-text small text-muted">Interpolación de variables dentro de strings mediante comillas dobles.</p>
+                        <a href="ejercicio05.php" class="btn btn-outline-primary btn-sm w-100">Ver Ejercicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloque Parte 2: Formularios con Bootstrap -->
+            <div class="col-12 mt-4">
+                <h2 class="h5 text-secondary border-bottom pb-2">Sección 2: Algoritmos e Interfaz Bootstrap</h2>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0 border-start border-primary border-4">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-primary fw-bold">Ejercicio 6</h3>
+                        <p class="card-text small text-muted">Suma de dos números enteros mediante formulario de usuario.</p>
+                        <a href="ejercicio06.php" class="btn btn-primary btn-sm w-100">Ejecutar Formulario</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0 border-start border-success border-4">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-success fw-bold">Ejercicio 7</h3>
+                        <p class="card-text small text-muted">Cálculo del cociente y residuo de dos números enteros.</p>
+                        <a href="ejercicio07.php" class="btn btn-success btn-sm w-100">Ejecutar Formulario</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-hover shadow-sm border-0 border-start border-dark border-4">
+                    <div class="card-body">
+                        <h3 class="h6 card-title text-dark fw-bold">Ejercicio 8</h3>
+                        <p class="card-text small text-muted">Cálculo del área de un círculo utilizando la constante PI.</p>
+                        <a href="ejercicio08.php" class="btn btn-dark btn-sm w-100">Ejecutar Formulario</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 text-muted border-top mt-auto bg-white">
+        <small>Lic. Rosell Alejandro Valderrama Chumbes &copy; Ciclo IV</small>
+    </footer>
+
+    <!-- Vinculación a Bootstrap JS local -->
+    <script src="plantilla/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
